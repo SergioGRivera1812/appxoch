@@ -13,11 +13,10 @@ import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
-import {RouterModule, Routes } from '@angular/router';
+import {RouterModule } from '@angular/router';
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { DashboardComponent } from './Componentes/dashboard/dashboard.component';
-import {MatDividerModule} from '@angular/material/divider';
 import { ImagenesComponent } from './Componentes/imagenes/imagenes.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -51,7 +50,6 @@ import { ToogleComponent } from './Componentes/toogle/toogle.component';
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
-    MatDividerModule,
     MatMenuModule,
     MatProgressSpinnerModule,
     BrowserAnimationsModule

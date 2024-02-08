@@ -16,12 +16,6 @@ h1{
 .video{
     border-radius: 15px;
 }
-.titulo{
-    background: #81a9d8;
-    border-radius: 5px;
-    color: white;
-
-}
 section{
   display: flex;
   width: 800px;
@@ -39,7 +33,6 @@ section img:hover{
   opacity: 1;
   filter: contrast(120%);
 }
-
 
 @keyframes fadeIn {
     from {
