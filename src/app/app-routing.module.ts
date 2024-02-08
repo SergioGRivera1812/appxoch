@@ -5,6 +5,7 @@ import { DashboardComponent } from './Componentes/dashboard/dashboard.component'
 import { LoginComponent } from './Componentes/login/login.component';
 import { ImagenesComponent } from './Componentes/imagenes/imagenes.component';
 import { VideoComponent } from './Componentes/video/video.component';
+import { NotesComponent } from './Componentes/notes/notes.component';
  
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'imagenes', component: ImagenesComponent },
   { path: 'video', component: VideoComponent },
+  {path: 'notas',component:NotesComponent},
 
   // Otras rutas...
   { path: '**', redirectTo: '' }, // Redirige rutas desconocidas a la página de inicio

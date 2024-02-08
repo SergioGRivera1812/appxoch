@@ -21,4 +21,8 @@ export class HeaderComponent {
   onHome(){
     this.router.navigate(['dashboard']);
   }
+
+  onNotes(){
+    this.router.navigate(['notas']);
+  }
 }

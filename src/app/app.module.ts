@@ -22,6 +22,8 @@ import { ImagenesComponent } from './Componentes/imagenes/imagenes.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VideoComponent } from './Componentes/video/video.component';
+import { NotesComponent } from './Componentes/notes/notes.component';
+import { ToogleComponent } from './Componentes/toogle/toogle.component';
 
 
 
@@ -34,7 +36,10 @@ import { VideoComponent } from './Componentes/video/video.component';
     LoginComponent,
     DashboardComponent,
     ImagenesComponent,
-    VideoComponent
+    VideoComponent,
+    NotesComponent,
+    ToogleComponent,
+
   ],
   imports: [
     BrowserModule,

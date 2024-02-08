@@ -12,6 +12,9 @@ export class DashboardComponent {
   btnVideo(){
     this.router.navigate(['video']);
   }
+  btnNotas(){
+    this.router.navigate(['notas']);
+  }
 
   btnImagenes(){
     this.router.navigate(['imagenes']);

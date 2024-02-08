@@ -20,7 +20,7 @@ export class LoginComponent {
     const emailV:string = this.formUser.get('email')?.value??'';
     const passV:string = this.formUser.get('pass')?.value??'';
     this.showSpinner = false;
-    if(emailV==='sergio.didier@hotmail.com'&& passV === 'admin'){
+    if(emailV==='sergio.didier@hotmail.com'&& passV === 'admin'||emailV==='Xoch Magallanes'&& passV === 'xoch'){
       this.router.navigate(['dashboard']);
       this.showSpinner = true;
       console.log(emailV,passV);

@@ -1,0 +1,10 @@
+<button mat-icon-button color=#003854 [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item  (click)="onLogoutClick()">
+        <mat-icon>logout</mat-icon>
+        Cerrar Sesion
+      </button>
+    </mat-menu>
