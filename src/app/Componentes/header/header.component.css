@@ -1,0 +1,15 @@
+.head{
+    background:  rgb(48, 84, 175);
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+}
+.settings{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}

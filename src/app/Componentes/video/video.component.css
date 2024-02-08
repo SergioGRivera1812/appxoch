@@ -1,0 +1,27 @@
+.container-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    animation: fadeIn 1s ease;
+}
+.video{
+    border-radius: 15px;
+}
+.titulo{
+    background: #81a9d8;
+    border-radius: 5px;
+    color: white;
+
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

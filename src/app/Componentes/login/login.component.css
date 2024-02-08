@@ -1,0 +1,61 @@
+
+body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .login-contenedor {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .izquierda{
+    flex: 1;
+    /* background-color: #445dec;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagen {
+    max-width: 80%; 
+    max-height: 80vh;
+    border-radius: 15px;
+  }
+  
+  .derecha {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(37, 37, 37);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .inp{
+      width: 400px;
+  }
+  
+  h1{
+      border-radius: 5px;
+      background: #ffffff;
+      color: black;
+      width: 400px;
+      text-align: center;
+  }
+  .boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
